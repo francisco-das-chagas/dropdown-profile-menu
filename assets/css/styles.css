@@ -264,22 +264,28 @@ img {
 
 /* For large devices */
 @media screen and (min-width: 1150px) {
-   .container {
+  .container {
     margin-inline: auto;
-  } 
-   .nav {
+  }
+  .nav {
     height: calc(var(--header-height) + 2rem);
     column-gap: 4rem;
-  } 
-   .nav__toggle,
+  }
+  .nav__toggle,
   .nav__close {
     display: none;
   }
   .nav__list {
-    flex-direction: row; 
+    flex-direction: row;
     column-gap: 3rem;
   }
   .nav__menu {
     margin-left: auto;
+  }
+  .dropdown__profile {
+    column-gap: 1rem;
+  }
+  .dropdown__list {
+    top: 5.5rem;
   }
 }
